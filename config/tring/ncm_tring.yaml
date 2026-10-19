@@ -32,6 +32,7 @@ model:
   use_flex_attention: false
   shared_output_head: true
   shared_head_per_level_bias: true
+  use_swiglu: true
   enable_jacobi: true
   jacobi_correction_weight: 0.20
   mcg_momentum_rate: 0.35
